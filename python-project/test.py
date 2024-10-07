@@ -1,3 +1,5 @@
+import random.py
+
 print("Hello World")
 
 def gen_first_name(length):
