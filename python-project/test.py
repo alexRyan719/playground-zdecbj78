@@ -7,7 +7,7 @@ print("Hello World")
 # range of values for uppercase: 65-90
 def gen_first_name(length):
   name = ""
-  name += chr(random.randrange(65,90)
+  name += chr(random.randrange(65,90))
   for letter in range(length-1):
     name += chr(random.randrange(97,122))
   return name
