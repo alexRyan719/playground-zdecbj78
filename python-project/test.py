@@ -23,7 +23,7 @@ def gen_user_hash(f_name, l_name):
 
 # print(gen_hash(gen_first_name(5), gen_last_name(5))
 first_name = gen_first_name(random.randrange(10))
-last_name = gen_last_name(random..randrange(10))
+last_name = gen_last_name(random.randrange(10))
 hash = gen_user_hash(first_name, last_name)
 
 print("First Name: ")
