@@ -5,7 +5,9 @@ If this is done correctly, it should be able to be used in any country, state, p
 
 # How does it work?
 
-First, every registered voter would need to link an email address to their government ID. This should be done in person, but can be updated with a video call (Google Meets, Zoom, etc). A hash can be generated for every election or however frequently is needed. The government ID numbers should still stay hidden, but the email and the name can be less protected.
+The idea is to allow registered voters to use their email account to cast their vote. First, every registered voter would need to link an email address 
+to their government ID. This should be done in person, but can be updated with a video call (Google Meets, Zoom, etc). A hash can be generated for every 
+election or however frequently is needed. The government ID numbers should still stay hidden, but the email and the name can be less protected.
 
 # Why Email?
 
