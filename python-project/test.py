@@ -1,4 +1,4 @@
-import random.py
+import random
 
 print("Hello World")
 
