@@ -17,13 +17,13 @@ def gen_last_name(length):
 
 def gen_user_hash(f_name, l_name):
   to_hash = f_name+l_name
-  hash = str(hashlib.md5(to_hash.encode()))
+  hash = hashlib.md5(to_hash.encode())
   return hash
 
 
 # print(gen_hash(gen_first_name(5), gen_last_name(5))
-first_name = gen_first_name(random.randrange(10))
-last_name = gen_last_name(random.randrange(10))
+first_name = gen_first_name(random.randrange(3,10))
+last_name = gen_last_name(random.randrange(4,10))
 hash = gen_user_hash(first_name, last_name)
 
 print("First Name: ")
@@ -33,4 +33,4 @@ print("Last Name: ")
 print(last_name)
 
 print("Hash: ")
-print(hash)
+print(hash.hexdigest())
