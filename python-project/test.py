@@ -7,8 +7,8 @@ print("Hello World")
 # range of values for uppercase: 65-90
 def gen_first_name(length):
   name = ""
-  print(length)
-  for letter in range(length):
+  name += chr(random.randrange(65,90)
+  for letter in range(length-1):
     name += chr(random.randrange(97,122))
   return name
 
@@ -28,9 +28,12 @@ hash = gen_user_hash(first_name, last_name)
 
 print("First Name: ")
 print(first_name)
+print()
 
 print("Last Name: ")
 print(last_name)
+print()
 
 print("Hash: ")
 print(hash.hexdigest())
+print()
