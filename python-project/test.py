@@ -10,4 +10,4 @@ def gen_first_name(length):
 
 #def create_user_hash(f_name, l_name):
 
-print(gen_first_name(randrange(5))
+print(gen_first_name(randrange(5)))
