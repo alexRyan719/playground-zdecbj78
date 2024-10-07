@@ -9,7 +9,7 @@ def gen_first_name(length):
   name = ""
   print(length)
   for letter in range(length):
-    name += char(random.randrange(97,122))
+    name += chr(random.randrange(97,122))
   return name
 
 def gen_last_name(length):
