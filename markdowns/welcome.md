@@ -22,6 +22,13 @@ vote. By using a newly generated hash every election (date or election id can be
 vote on websites. After the polls close, every voter would be asked to check that their vote is accurate. They would copy the hash ID from their email, do a find
 on the website for it, and verify their vote is accurate. 
 
+How do you vote?
+
+An email would be sent to every registered email address with an underscore next to each candidate's first name, last name, and party. The voter would copy the 
+text and replace the underscore with an X (or literally anything else, even just erase the underscore). As long as it's not an underscore, it's marked as the 
+selection. That reply is sent with the choices indicated. A machine would read incoming emails, check against a list of all emails, and then log the vote for 
+the email address.That database entry would then be used to update the vote database. 
+
 How do you display the results, in real time, so anyone at home can see the vote counts?
 
 We would need a web server / website for every state, and maybe even every county for larger counties. This is relatively easy to do, as we're just working with
