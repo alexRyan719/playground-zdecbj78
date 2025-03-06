@@ -35,16 +35,34 @@ def gen_first_name(length):
 def gen_last_name(length):
   return gen_first_name(length)
 
-def gen_user_hash(f_name, l_name):
+def gen_user_hash_md5(f_name, l_name):
   to_hash = f_name+l_name
   hash = hashlib.md5(to_hash.encode())
+  return hash
+
+def gen_user_hash_sha256(f_name, l_name):
+  to_hash = f_name+l_name
+  hash = hashlib.sha256(to_hash.encode())
+  return hash
+
+def gen_user_hash_sha512(f_name, l_name):
+  to_hash = f_name+l_name
+  hash = hashlib.sha512(to_hash.encode())
   return hash
 
 
 # print(gen_hash(gen_first_name(5), gen_last_name(5))
 first_name = gen_first_name(random.randrange(3,10))
 last_name = gen_last_name(random.randrange(4,10))
-hash = gen_user_hash(first_name, last_name)
+
+# Weak hash, MD5
+hash = gen_user_hash_md5(first_name, last_name)
+
+# Stronger hash, SHA256
+hash = gen_user_hash_sha256(first_name, last_name)
+
+# Even Stronger hash but potential performance issues, SHA512
+hash = gen_user_hash_sha512(first_name, last_name)
 
 print("First Name: ")
 print(first_name)
