@@ -6,6 +6,8 @@ plan:
   statement: markdowns/name_gen.md
 - title: Email Server
   statement: markdowns/email_serv.md
+- title: Web Server
+  statement: markdowns/web_serv.md
 
   
 projects:
