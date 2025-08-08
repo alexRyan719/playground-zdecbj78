@@ -2,6 +2,12 @@ title: Online Voting Concept
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+- title: Name Generator
+  statement: name_gen.md
+- title: Email Server
+  statement: email_serv.md
+
+  
 projects:
   python:
     root: /python-project
