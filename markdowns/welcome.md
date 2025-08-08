@@ -1,3 +1,7 @@
+For the files of this project, see my GitHub repo here:
+
+https://github.com/alexRyan719/playground-zdecbj78/tree/master
+
 # Welcome!
 
 First off, this is not meant to be political in any way. Rather, this is a potential solution to the ugliness politics has often become. 
