@@ -3,9 +3,9 @@ plan:
 - title: Welcome
   statement: markdowns/welcome.md
 - title: Name Generator
-  statement: name_gen.md
+  statement: markdowns/name_gen.md
 - title: Email Server
-  statement: email_serv.md
+  statement: markdowns/email_serv.md
 
   
 projects:
