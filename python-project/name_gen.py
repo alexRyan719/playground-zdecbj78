@@ -10,19 +10,7 @@ us_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "American Samoa", "Cali
             "South Dakota", "Tennessee", "Texas", "Trust Territories", "Utah", "Vermont", "Virginia", "Virgin Islands", 
              "Washington", "West Virginia", "Wisconsin", "Wyoming"]
 
-# us_state_codes = ["AL",	"KY", "OH", "AK", "LA",	"OK", "AZ",	"ME", "OR", "AR", "MD", "PA", "AS",	"MA", "PR", "CA", "MI", "RI", "CO		MN		SC
-# 	              CT		MS		SD
-# 	              DE		MO		TN
-# 	              DC		MT		TX
-# 	              FL		NE		TT
-# 	              GA		NV		UT
-# 	              GU		NH		VT
-# 	              HI		NJ		VA
-# 	              ID		NM		VI
-# 	              IL		NY		WA
-# 	              IN		NC		WV
-# 	              IA		ND		WI
-# 	              KS		MP		WY]
+
 
 
 # range of values for lowercase: 97-122
@@ -88,3 +76,17 @@ print()
 
 print("US States: ")
 print(us_states)
+
+# us_state_codes = ["AL",	"KY", "OH", "AK", "LA",	"OK", "AZ",	"ME", "OR", "AR", "MD", "PA", "AS",	"MA", "PR", "CA", "MI", "RI", "CO		MN		SC
+# 	              CT		MS		SD
+# 	              DE		MO		TN
+# 	              DC		MT		TX
+# 	              FL		NE		TT
+# 	              GA		NV		UT
+# 	              GU		NH		VT
+# 	              HI		NJ		VA
+# 	              ID		NM		VI
+# 	              IL		NY		WA
+# 	              IN		NC		WV
+# 	              IA		ND		WI
+# 	              KS		MP		WY]
