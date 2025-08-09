@@ -1,3 +1,5 @@
+# "What have the Romans ever done for us?"
+
 import random, hashlib
 
 us_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "American Samoa", "California", "Colorado", "Connecticut", "Delaware", 
